@@ -1,5 +1,7 @@
 ﻿using DotNetCoreSqlDb.Models;
 using Microsoft.EntityFrameworkCore;
+using DotNetCoreSqlDb.Data;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
